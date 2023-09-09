@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="stopwatch">
+      <div class="time">
+        <span class="hour">00</span>
+        <span class="colon">:</span>
+        <span class="minute">00</span>
+        <span class="colon">:</span>
+        <span class="second">00</span>
+        <span class="colon ms-colon">:</span>
+        <span class="millisecond">00</span>
+      </div>
+      <div class="controls">
+        <button id="startStop" >Start</button>
+        <button id="reset" >Reset</button>
+        <button id="lap" >Lap</button>
+      </div>
+    </div>
+    <div class="lap">
+      <h2>Lap Times</h2>
+      <ul id="lapList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

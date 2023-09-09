@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #183d3d;
+}
+
+.stopwatch {
+  text-align: center;
+  margin: 50px;
+}
+.time {
+  height: 100px;
+  background: #5c8374;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  outline: none;
+  border: none;
+  margin: 0 5px;
+  color: #183d3d;
+  background: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  border-radius: 10px;
+  
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.09);
+}
+button:hover{
+  border-radius: 40%;
+}
+.lap {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.time span {
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color: #333;
+}
+.time span.colon {
+  width: 10px;
+}
+.time span.ms-colon,
+.time span.millisecond {
+  color: #93b1a6;
+}
+
+#lapList{
+ color: #5c8374;
+}
